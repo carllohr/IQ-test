@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IQ-test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p id="countdown">10: 00</p>
+
+
+<div id="question-container">
+<div id="qimage"> <img src="iq-test1red.png">
+	</div>
+
+</div>
+
+<div id="answers"> 
+	<div class="container">
+		<div class="item"> <input type="radio" id="A" onclick="checkAnswer('A')" > <br>
+		A </div>
+		<div class="item"> <input type="radio" id="B" onclick="checkAnswer('B')"> <br>
+		B </div>
+		<div class="item"> <input type="radio" id="C" onclick="checkAnswer('C')"> 
+			<br>
+		C </div>
+		<div class="item"> <input type="radio" id="D" onclick="checkAnswer('D')"> 
+			<br>D </div>
+		<div class="item"> <input type="radio" id="E" onclick="checkAnswer('E')"> <br>E </div>
+	</div>
+</div>
+
+
+<button onClick="nextImage()">Next</button>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
